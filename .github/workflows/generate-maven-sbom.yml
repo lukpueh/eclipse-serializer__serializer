@@ -62,3 +62,4 @@ jobs:
           sbom-file: target/sbom/Eclipse-Serializer-Sbom.json
           product-name: 'serializer'
           product-version: ${{ env.PROJECT_VERSION }}
+          staging: true
